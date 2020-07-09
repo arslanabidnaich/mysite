@@ -192,9 +192,9 @@ hr { border-top: 1px solid white; }
 /* Service */ 
 .tm-service-text { max-width: 365px; }
 .tm-service-img { margin-right: 25px; 
-block-size:150px;}
+block-size:330px;}
 .tm-service-img-r { margin-left: 25px;
-block-size:150px;
+block-size:330px;
  }
 
 /* Contact */
