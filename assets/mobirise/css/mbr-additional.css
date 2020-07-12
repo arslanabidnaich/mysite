@@ -727,7 +727,7 @@ section.lazy-placeholder:after {
   text-align: left;
 }
 .cid-s4xrfC6DLO {
-  background-image: url("../../../assets/images/justice-1509436.jpg");
+  background-color: #000000;
 }
 .cid-s4xrfC6DLO .icons-media-container {
   display: flex;
@@ -755,7 +755,8 @@ section.lazy-placeholder:after {
 .cid-s4xtvmVYjg {
   padding-top: 90px;
   padding-bottom: 90px;
-  background-image: url("../../../assets/images/diagoona-bg-2.jpg");
+  background-color: #000000;
+  background: linear-gradient(45deg, #000000, #000000);
 }
 .cid-s4xtvmVYjg .media-container-row {
   flex-direction: row-reverse;
@@ -1189,7 +1190,8 @@ section.lazy-placeholder:after {
 .cid-s4xAlnmn5Q {
   padding-top: 90px;
   padding-bottom: 90px;
-  background-image: url("../../../assets/images/diagoona-bg-2.jpg");
+  background-color: #767676;
+  background: linear-gradient(45deg, #767676, #ffffff);
 }
 @media (min-width: 992px) {
   .cid-s4xAlnmn5Q .mbr-figure {
@@ -1606,7 +1608,7 @@ section.lazy-placeholder:after {
 .cid-s4xTdskVXe {
   padding-top: 90px;
   padding-bottom: 90px;
-  background-image: url("../../../assets/images/justice-1509436.jpg");
+  background-color: #efefef;
 }
 .cid-s4xTdskVXe h3 {
   text-align: center;
@@ -2017,7 +2019,7 @@ section.lazy-placeholder:after {
 .cid-s4xELEvR12 {
   padding-top: 90px;
   padding-bottom: 90px;
-  background-image: url("../../../assets/images/background3.jpg");
+  background-color: #efefef;
 }
 .cid-s4xELEvR12 div.b {
   padding-top: 2rem;
