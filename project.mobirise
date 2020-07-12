@@ -56,7 +56,7 @@
     "versionPublish": "4.12.4",
     "screenshot": "screenshot.png",
     "favicon": false,
-    "imageResize": false,
+    "imageResize": true,
     "robotsSwitcher": false,
     "sitemapSwitcher": true,
     "sitemapSwitcherAuto": "on",
