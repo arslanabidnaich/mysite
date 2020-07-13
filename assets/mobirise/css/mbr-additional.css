@@ -753,10 +753,8 @@ section.lazy-placeholder:after {
   padding-bottom: 1.5rem;
 }
 .cid-s4xtvmVYjg {
-  padding-top: 90px;
-  padding-bottom: 90px;
   background-color: #000000;
-  background: linear-gradient(45deg, #000000, #000000);
+  background: linear-gradient(45deg, #000000, #ffffff);
 }
 .cid-s4xtvmVYjg .media-container-row {
   flex-direction: row-reverse;
