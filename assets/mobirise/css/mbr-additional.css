@@ -1212,10 +1212,11 @@ section.lazy-placeholder:after {
   color: #232323;
 }
 .cid-s4xAlnmn5Q H1 {
-  color: #000000;
+  color: #767676;
 }
 .cid-s4xAlnmn5Q H3 {
-  color: #232323;
+  color: #ffffff;
+  text-align: left;
 }
 .cid-qTkzRZLJNu .navbar {
   padding: .5rem 0;
@@ -2067,6 +2068,12 @@ section.lazy-placeholder:after {
   .cid-s4xELEvR12 div.left-block.wrapper {
     padding-bottom: 3rem;
   }
+}
+.cid-s4xELEvR12 H2 {
+  color: #767676;
+}
+.cid-s4xELEvR12 H5 {
+  color: #232323;
 }
 .cid-qTkzRZLJNu .navbar {
   padding: .5rem 0;
