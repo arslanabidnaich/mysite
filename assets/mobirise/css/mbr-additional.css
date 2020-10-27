@@ -1577,9 +1577,9 @@ section.lazy-placeholder:after {
   background-color: #000000;
 }
 .cid-seCkwwEySN {
-  padding-top: 90px;
+  padding-top: 120px;
   padding-bottom: 90px;
-  background-color: #ffffff;
+  background-image: url("../../../assets/images/mbr-1-1920x1280.jpg");
 }
 .cid-seCkwwEySN h2 {
   text-align: center;
@@ -1650,6 +1650,12 @@ section.lazy-placeholder:after {
   .cid-seCkwwEySN .card:nth-child(1) {
     padding-bottom: 0!important;
   }
+}
+.cid-seCkwwEySN .mbr-section-text {
+  color: #232323;
+}
+.cid-seCkwwEySN .mbr-crt-title {
+  color: #000000;
 }
 .cid-qTkzRZLJNu .navbar {
   padding: .5rem 0;
