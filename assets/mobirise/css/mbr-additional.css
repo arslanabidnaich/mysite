@@ -1576,37 +1576,80 @@ section.lazy-placeholder:after {
   padding-bottom: 30px;
   background-color: #000000;
 }
-.cid-s4xTdskVXe {
+.cid-seCkwwEySN {
   padding-top: 90px;
   padding-bottom: 90px;
   background-color: #ffffff;
 }
-.cid-s4xTdskVXe h3 {
+.cid-seCkwwEySN h2 {
   text-align: center;
 }
-.cid-s4xTdskVXe .mbr-section-subtitle {
-  color: #767676;
+.cid-seCkwwEySN h3 {
+  text-align: center;
   font-weight: 300;
 }
-.cid-s4xTdskVXe .mbr-content-text {
-  color: #073b4c;
+.cid-seCkwwEySN p {
+  color: #767676;
 }
-.cid-s4xTdskVXe .panel-item {
-  background: #efefef;
+.cid-seCkwwEySN img {
+  object-fit: cover;
 }
-.cid-s4xTdskVXe .card {
+.cid-seCkwwEySN .block-content {
+  display: -webkit-flex;
+  flex-direction: column;
+  -webkit-flex-direction: column;
+  flex-basis: 100%;
+  -webkit-flex-basis: 100%;
+}
+.cid-seCkwwEySN .mbr-figure {
+  align-self: flex-start;
+  -webkit-align-self: flex-start;
+  flex-shrink: 0;
+  -webkit-flex-shrink: 0;
+}
+.cid-seCkwwEySN .media-container-row {
   word-wrap: break-word;
+  word-break: break-word;
 }
-.cid-s4xTdskVXe .mbr-iconfont {
-  font-size: 80px;
-  color: #149dcc;
+.cid-seCkwwEySN .mbr-section-subtitle {
+  color: #767676;
 }
-.cid-s4xTdskVXe H3 {
-  text-align: center;
-  color: #000000;
+.cid-seCkwwEySN .card-title {
+  font-weight: 500;
 }
-.cid-s4xTdskVXe .mbr-section-title {
-  color: #000000;
+.cid-seCkwwEySN .card-img {
+  text-align: inherit;
+}
+.cid-seCkwwEySN .card-img span {
+  font-size: 48px;
+  color: #707070;
+}
+@media (min-width: 992px) {
+  .cid-seCkwwEySN .mbr-figure {
+    padding-right: 2rem;
+    padding-left: 2rem;
+    height: 100%;
+  }
+}
+@media (max-width: 991px) {
+  .cid-seCkwwEySN .mbr-figure {
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+  }
+}
+@media (max-width: 991px) and (min-width: 768px) {
+  .cid-seCkwwEySN .block-content {
+    flex-direction: row;
+    -webkit-flex-direction: row;
+    text-align: center;
+  }
+  .cid-seCkwwEySN .block-content .card {
+    flex-basis: 100%;
+    -webkit-flex-basis: 100%;
+  }
+  .cid-seCkwwEySN .card:nth-child(1) {
+    padding-bottom: 0!important;
+  }
 }
 .cid-qTkzRZLJNu .navbar {
   padding: .5rem 0;
