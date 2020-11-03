@@ -2043,32 +2043,65 @@ section.lazy-placeholder:after {
   padding-bottom: 30px;
   background-color: #000000;
 }
-.cid-s4xELEvR12 {
-  padding-top: 90px;
-  padding-bottom: 90px;
-  background-color: #ffffff;
+.cid-sfhAtVSPgs {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background-image: url("../../../assets/images/background3.jpg");
 }
-.cid-s4xELEvR12 div.b {
-  padding-top: 2rem;
+.cid-sfhAtVSPgs .title {
+  padding-bottom: 2.5rem;
 }
-.cid-s4xELEvR12 .mbr-text {
+.cid-sfhAtVSPgs .mbr-text {
   color: #767676;
   margin: 0;
-  padding-top: 1.5rem;
+  padding-top: 0.5rem;
 }
-.cid-s4xELEvR12 a:not([href]):not([tabindex]) {
-  color: #fff;
-  border-radius: 3px;
+.cid-sfhAtVSPgs .iconfont-wrapper {
+  display: flex;
+  align-items: center;
+  width: 50px;
+  height: 50px;
 }
-.cid-s4xELEvR12 .google-map {
+@media (min-width: 992px) {
+  .cid-sfhAtVSPgs .iconfont-wrapper {
+    margin-right: 2rem;
+  }
+}
+.cid-sfhAtVSPgs .iconfont-wrapper .mbr-iconfont {
+  font-size: 50px;
+}
+.cid-sfhAtVSPgs .wrapper {
+  display: flex;
+  margin-bottom: 2rem;
+}
+@media (max-width: 767px) {
+  .cid-sfhAtVSPgs .wrapper .iconfont-wrapper {
+    margin: auto;
+  }
+}
+@media (max-width: 991px) {
+  .cid-sfhAtVSPgs .wrapper {
+    flex-wrap: wrap;
+  }
+  .cid-sfhAtVSPgs .wrapper .iconfont-wrapper {
+    margin-bottom: 1rem;
+  }
+}
+.cid-sfhAtVSPgs .wrapper .b-info {
+  width: 100%;
+}
+.cid-sfhAtVSPgs H6 {
+  color: #000000;
+}
+.cid-sfhB3sjXOG .google-map {
   height: 25rem;
   position: relative;
 }
-.cid-s4xELEvR12 .google-map iframe {
+.cid-sfhB3sjXOG .google-map iframe {
   height: 100%;
   width: 100%;
 }
-.cid-s4xELEvR12 .google-map [data-state-details] {
+.cid-sfhB3sjXOG .google-map [data-state-details] {
   color: #6b6763;
   font-family: Montserrat;
   height: 1.5em;
@@ -2080,28 +2113,11 @@ section.lazy-placeholder:after {
   top: 50%;
   width: 100%;
 }
-.cid-s4xELEvR12 .google-map[data-state] {
+.cid-sfhB3sjXOG .google-map[data-state] {
   background: #e9e5dc;
 }
-.cid-s4xELEvR12 .google-map[data-state="loading"] [data-state-details] {
+.cid-sfhB3sjXOG .google-map[data-state="loading"] [data-state-details] {
   display: none;
-}
-.cid-s4xELEvR12 div.left-block.wrapper {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-}
-@media (max-width: 767px) {
-  .cid-s4xELEvR12 div.left-block.wrapper {
-    padding-bottom: 3rem;
-  }
-}
-.cid-s4xELEvR12 H2 {
-  color: #000000;
-}
-.cid-s4xELEvR12 H5 {
-  color: #232323;
 }
 .cid-qTkzRZLJNu .navbar {
   padding: .5rem 0;

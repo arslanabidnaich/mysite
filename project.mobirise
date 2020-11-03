@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Advocate Arslan Abid",
-    "currentPage": "Faq.html",
+    "currentPage": "contact.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -52,7 +52,7 @@
       }
     ],
     "versionFirst": "4.7.6",
-    "uniqCompNum": 60,
+    "uniqCompNum": 66,
     "versionPublish": "4.12.4",
     "screenshot": "screenshot.png",
     "favicon": false,
@@ -1719,20 +1719,64 @@
             "& when (@bg-type = 'image')": {
               "background-image": "url(@bg-value)"
             },
-            "div.b": {
-              "padding-top": "2rem"
+            ".title": {
+              "padding-bottom": "2.5rem"
             },
             ".mbr-text": {
               "color": "#767676",
               "margin": "0",
-              "padding-top": "1.5rem"
+              "padding-top": "0.5rem"
             },
-            "a:not([href]):not([tabindex])": {
-              "color": "#fff",
-              "border-radius": "3px"
+            "& when (@checkIcons)": {
+              ".iconfont-wrapper": {
+                "display": "flex",
+                "align-items": "center",
+                "width": "~\"@{iconsSize}px\"",
+                "height": "~\"@{iconsSize}px\"",
+                "@media (min-width: 992px)": {
+                  "margin-right": "2rem"
+                },
+                ".mbr-iconfont": {
+                  "font-size": "~\"@{iconsSize}px\""
+                }
+              }
             },
+            ".wrapper": {
+              "display": "flex",
+              "margin-bottom": "2rem",
+              "@media (max-width: 767px)": {
+                ".iconfont-wrapper": {
+                  "margin": "auto"
+                }
+              },
+              "@media (max-width: 991px)": {
+                "flex-wrap": "wrap",
+                ".iconfont-wrapper": {
+                  "margin-bottom": "1rem"
+                }
+              },
+              ".b-info": {
+                "width": "100%"
+              }
+            },
+            "H6": {
+              "color": "#000000"
+            }
+          },
+          "_name": "contacts3",
+          "_customHTML": "<section class=\"mbr-section contacts3\" group=\"Forms\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    <!---->\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"8\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"8\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitleSect\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitleSect\">\n        <input type=\"range\" title=\"Count\" name=\"columnCount\" min=\"1\" max=\"4\" step=\"1\" value=\"4\">\n        <input type=\"checkbox\" title=\"Icons\" name=\"checkIcons\" checked>\n        <input type=\"range\" inline title=\"Size Icons\" name=\"iconsSize\" min=\"30\" max=\"100\" step=\"1\" value=\"50\" condition=\"checkIcons\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background3.jpg\" parallax selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\">\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <!---->\n    <!--Overlay-->\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <!--Container-->\n    <div class=\"container\">\n        <div class=\"row\">\n            <!--Titles-->\n            <div class=\"title col-12\">\n                <h4 mbr-if=\"showTitleSect\" class=\"align-left mbr-fonts-style\" mbr-theme-style=\"display-1\">\n                    Our Contacts\n                </h4>\n                <h5 mbr-if=\"showSubtitleSect\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle pt-2 mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">\n                    Subtitle\n                </h5>\n            </div>\n            <div class=\"col-12\">\n                <div class=\"row\">\n                    <div class=\"col-12 col-md-6\">\n                        <div class=\"wrapper\">\n                            <span class=\"iconfont-wrapper\" mbr-if=\"checkIcons\">\n                                <a href=\"https://g.page/advocatearslanabid\" target=\"_blank\"><span mbr-icon class=\"mbr-iconfont mbri-map-pin\"></span></a>\n                            </span>\n                            <div class=\"b-info b-adress\">\n                                <h6 class=\"align-left mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                                    <a href=\"http://g.page/advocatearslanabid\" target=\"_blank\" class=\"text-black\"><b>Address:</b></a>\n                                </h6>\n                                <p class=\"mbr-text align-left mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"><a href=\"http://g.page/advocatearslanabid\" target=\"_blank\" class=\"text-black\">Law Chamber: 29-A, 4th Floor, Court Chamber Building ,</a><br><a href=\"http://g.page/advocatearslanabid\" target=\"_blank\" class=\"text-black\">Opp. City Court, Karachi</a></p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"col-12 col-md-6\" mbr-if=\"columnCount>1\">\n                        <div class=\"wrapper\">\n                            <span class=\"iconfont-wrapper\" mbr-if=\"checkIcons\">\n                                <a href=\"tel:+923002828881\"><span mbr-icon class=\"mbr-iconfont mbri-mobile2\"></span></a>\n                            </span>\n                            <div class=\"b-info b-phone\">\n                                <h6 class=\"align-left mbr-fonts-style\" mbr-theme-style=\"display-7\"><a href=\"tel:+923002828881\" class=\"text-black\"><b>Phone</b></a></h6>\n                                <p class=\"mbr-text align-left mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                                    <a href=\"tel:+923002828881\" class=\"text-black\">+923002828881</a></p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"col-12 col-md-6\" mbr-if=\"columnCount>2\">\n                        <div class=\"wrapper\">\n                            <span class=\"iconfont-wrapper\" mbr-if=\"checkIcons\">\n                                <a href=\"mailto:info@advocatearslanabid.com\"><span mbr-icon class=\"mbr-iconfont mbri-letter\"></span></a>\n                            </span>\n                            <div class=\"b-info b-mail\">\n                                <h6 class=\"align-left mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                                    <a href=\"mailto:info@advocatearslanabid.com\" class=\"text-black\"><b>Email</b></a></h6>\n                                <p class=\"mbr-text align-left mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"><a href=\"mailto:info@advocatearslanabid.com\" class=\"text-black\">info@advocatearslanabid.com</a></p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"col-12 col-md-6\" mbr-if=\"columnCount>3\">\n                        <div class=\"wrapper\">\n                            <span class=\"iconfont-wrapper\" mbr-if=\"checkIcons\">\n                                <a href=\"https://wa.me/923002828881\"><span mbr-icon class=\"mbr-iconfont socicon-whatsapp socicon\"></span></a>\n                            </span>\n                            <div class=\"b-info b-mail\">\n                                <h6 class=\"align-left mbr-fonts-style\" mbr-theme-style=\"display-7\"><a href=\"https://wa.me/923002828881\"><b>Whatsapp</b></a></h6>\n                                <p class=\"mbr-text align-left mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"><a href=\"https://wa.me/923002828881\" class=\"text-black\">+923002828881</a></p>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "sfhAtVSPgs",
+          "_anchor": "contacts3-1r",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
             ".google-map": {
-              "height": "~\"@{heightMap}rem\"",
+              "height": "25rem",
               "position": "relative",
               "iframe": {
                 "height": "100%",
@@ -1756,31 +1800,15 @@
               "&[data-state=\"loading\"]": {
                 "[data-state-details]": {
                   "display": "none"
-                }
+                },
+                "&::after": {}
               }
-            },
-            "div.left-block.wrapper": {
-              "height": "100%",
-              "display": "flex",
-              "flex-direction": "column",
-              "justify-content": "flex-start"
-            },
-            "@media (max-width: 767px)": {
-              "div.left-block.wrapper": {
-                "padding-bottom": "3rem"
-              }
-            },
-            "H2": {
-              "color": "#000000"
-            },
-            "H5": {
-              "color": "#232323"
             }
           },
-          "_name": "contacts1",
-          "_customHTML": "<section class=\"mbr-section contacts1\" group=\"Forms\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    <!---->\n    <mbr-parameters>\n        <!---->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"6\">\n        <!---->\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitleSect\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitleSect\">\n        <!---->\n        <input type=\"map\" title=\"Map\" name=\"googleMap\" place-id=\"iframe\" value=\"<iframe src=&quot;https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57936.35166178312!2d66.98259776263174!3d24.8289219714319!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33f1be682cd6b%3A0xac532ac2714cef75!2sAdvocate%20Arslan%20Abid%20%7C%20Law%20Chamber!5e0!3m2!1sen!2s!4v1594568557839!5m2!1sen!2s&quot; width=&quot;600&quot; height=&quot;450&quot; frameborder=&quot;0&quot; style=&quot;border:0;&quot; allowfullscreen=&quot;&quot; aria-hidden=&quot;false&quot; tabindex=&quot;0&quot;></iframe>\">\n        <input type=\"range\" title=\"Height Map\" name=\"heightMap\" min=\"15\" max=\"50\" step=\"1\" value=\"25\">\n        <!---->\n        <input type=\"checkbox\" title=\"Show Adress\" name=\"showAdress\" checked>\n        <input type=\"checkbox\" title=\"Show Phone\" name=\"showPhone\" checked>\n        <input type=\"checkbox\" title=\"Show Mail\" name=\"showMail\" checked>\n        <!---->\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background3.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <!---->\n    <!--Overlay-->\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <!--Container-->\n    <div class=\"container\">\n        <div class=\"row\">\n            <!--Titles-->\n            <div class=\"title col-12\">\n                <h2 mbr-if=\"showTitleSect\" class=\"align-left mbr-fonts-style\" mbr-theme-style=\"display-1\"><b>\n                    Our Contacts\n                </b></h2>\n                <h3 mbr-if=\"showSubtitleSect\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle mbr-light mbr-fonts-style pt-3\" mbr-theme-style=\"display-5\">\n                    Subtitle\n                </h3>\n            </div>\n            <!--Left-->\n            <div class=\"col-12 col-md-6\">\n                <div class=\"left-block wrapper\">\n                    <div class=\"b b-adress\" mbr-if=\"showAdress\">\n                        <h5 class=\"align-left mbr-fonts-style m-0\" mbr-theme-style=\"display-5\">\n                            Address:\n                        </h5>\n                        <p class=\"mbr-text align-left mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"><a href=\"http://g.page/advocatearslanabid\" target=\"_blank\" class=\"text-black\">Law Chamber: 29-A, 4th Floor, Court Chamber Building ,</a><br><a href=\"http://g.page/advocatearslanabid\" target=\"_blank\" class=\"text-black\">Opp. City Court, Karachi</a></p>\n                    </div>\n                    <div class=\"b b-phone\" mbr-if=\"showPhone\">\n                        <h5 class=\"align-left mbr-fonts-style m-0\" mbr-theme-style=\"display-5\">\n                            Phone:\n                        </h5>\n                        <p class=\"mbr-text align-left mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"><a href=\"tel:+923002828881\" class=\"text-black\">+923002828881</a></p>\n                    </div>\n                    <div class=\"b b-mail\" mbr-if=\"showMail\">\n                        <h5 class=\"align-left mbr-fonts-style m-0\" mbr-theme-style=\"display-5\">\n                            E-mail:\n                        </h5>\n                        <p class=\"mbr-text align-left mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"><a href=\"mailto:info@advocatearslanabid.com\" class=\"text-black\">info@advocatearslanabid.com</a>\n                        </p>\n                    </div>\n                </div>\n            </div>\n            <!--Right-->\n            <div class=\"col-12 col-md-6\">\n                <div class=\"google-map\" mbr-map=\"googleMap\">\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "s4xELEvR12",
-          "_anchor": "contacts1-x",
+          "_name": "map1",
+          "_customHTML": "<section class=\"map1\" group=\"Maps\">\n\n    <mbr-parameters>   \n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"map\" title=\"Map\" name=\"googleMap\" place-id=\"iframe\" value=\"<iframe src=&quot;https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57936.35166178312!2d66.98259776263174!3d24.8289219714319!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33f1be682cd6b%3A0xac532ac2714cef75!2sAdvocate%20Arslan%20Abid%20%7C%20Law%20Chamber!5e0!3m2!1sen!2s!4v1594568557839!5m2!1sen!2s&quot; width=&quot;600&quot; height=&quot;450&quot; frameborder=&quot;0&quot; style=&quot;border:0;&quot; allowfullscreen=&quot;&quot; aria-hidden=&quot;false&quot; tabindex=&quot;0&quot;></iframe>\">   \n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"google-map\" mbr-map=\"googleMap\">\n    </div>\n</section>",
+          "_cid": "sfhB3sjXOG",
+          "_anchor": "map1-1t",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
