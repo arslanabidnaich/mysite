@@ -484,7 +484,7 @@
           "_params": {
             "slides__autoplay": "false",
             "slides__autoplayInterval": 4000,
-            "slides__showBullets": true,
+            "slides__showBullets": false,
             "slides": [
               {
                 "image": "@PROJECT_PATH@/assets/images/divorce-506x285.jpg",
