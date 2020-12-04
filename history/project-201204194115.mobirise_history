@@ -58,7 +58,7 @@
     ],
     "versionFirst": "4.7.6",
     "uniqCompNum": 87,
-    "versionPublish": "4.12.4",
+    "versionPublish": "5.2.0",
     "screenshot": "screenshot.png",
     "favicon": false,
     "imageResize": true,
@@ -70,7 +70,7 @@
     "gdpr": false,
     "google-analytics": "UA-70623664-2",
     "publishType": "local",
-    "publishPath": "@PROJECT_PATH@"
+    "publishPath": "file:///Users/arslanabid/Desktop/GitHub/nnnnn"
   },
   "pages": {
     "index.html": {
