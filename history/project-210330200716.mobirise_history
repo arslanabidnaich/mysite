@@ -68,7 +68,9 @@
     "siteUrl": "https://advocatearslanabid.com",
     "cookiesAlert": false,
     "gdpr": false,
-    "google-analytics": "UA-70623664-2"
+    "google-analytics": "UA-70623664-2",
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@"
   },
   "pages": {
     "index.html": {
@@ -2139,11 +2141,11 @@
           "_name": "content8",
           "_customHTML": "<section class=\"mbr-section content8\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"color\" title=\"Backgroud Color\" name=\"bgColor\" value=\"#000000\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row title\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-5\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-white-outline\" href=\"https://m.facebook.com/services_vertical/book_appointment/?page_id=110821584434267&referrer=primary_cta&referrer_surface=page&ref=page_internal\" data-app-placeholder=\"Type Text\" target=\"_blank\">Book an Appointment</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "st9B6zan2s",
-          "_anchor": "content8-2f",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {}
+          "_params": {},
+          "_anchor": "content8-2f"
         },
         {
           "alias": false,
